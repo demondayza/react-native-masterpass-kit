@@ -14,12 +14,18 @@ import RNMasterpassKit from 'react-native-masterpass-kit';
 
 export default function App() {
   useEffect(() => {
-    const subcription = RNMasterpassKit.registerUserDidCancelEvent(() => {
-      console.warn('User cancelled');
+    const userCancelSubcription = RNMasterpassKit.registerUserDidCancelEvent(
+      () => {
+        console.warn('User cancelled');
+      },
+    );
+    const errorSubcription = RNMasterpassKit.registerErrorEvent((error) => {
+      console.warn(error);
     });
     return () => {
       // Remove subscriptions
-      subcription.remove();
+      userCancelSubcription.remove();
+      errorSubcription.remove();
     };
   }, []);
 

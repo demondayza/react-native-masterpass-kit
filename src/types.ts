@@ -18,6 +18,12 @@ export interface CheckoutParams extends MasterpassKitCommon {
    * This is the code created by calling the Masterpass API representing the transaction.
    */
   code: string;
+
+  /**
+   * [Android only] This allows capability for the app to read the SMS for registration.
+   * Details on how to generate the HASH key can be String found here https://developers.google.com/identity/sms-retriever/verify#computing_your_apps_hash_string
+   */
+  hash?: string;
 }
 
 export interface PreRegisterParams extends MasterpassKitCommon {}
