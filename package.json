@@ -3,11 +3,11 @@
   "title": "React Native Masterpass Kit",
   "version": "1.0.0",
   "description": "TODO",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "files": [
     "README.md",
     "android",
-    "index.js",
+    "lib",
     "ios",
     "react-native-masterpass-kit.podspec"
   ],

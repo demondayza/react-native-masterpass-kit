@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-masterpass-kit": "link:../"
+    "react-native-masterpass-kit": "https://github.com/r0b0t3d/react-native-masterpass-kit"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
