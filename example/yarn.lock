@@ -5415,7 +5415,7 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
 
 "react-native-masterpass-kit@https://github.com/r0b0t3d/react-native-masterpass-kit":
   version "1.0.0"
-  resolved "https://github.com/r0b0t3d/react-native-masterpass-kit#5c6b1a7e4339d4a398232caae4151101575ce236"
+  resolved "https://github.com/r0b0t3d/react-native-masterpass-kit#91fe7bfeb0c3176060dfe19a0e200f16c8726a16"
 
 react-native@0.62.2:
   version "0.62.2"
