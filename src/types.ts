@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-interface */
 interface MasterpassKitCommon {
   /**
    * This is the API key provided by Masterpass that will enable the library to be used. This can be found on the Masterpass Portal under the Lib Lite Tokens menu item.
